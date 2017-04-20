@@ -25,6 +25,8 @@ public class Triangulo_Metodos {
     
     public void cargar(){
         
+        teclado = new Scanner(System.in);
+        
         System.out.print("Ingrese el lado uno del triangulo: ");
         lado1 = teclado.nextInt();
         
